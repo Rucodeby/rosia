@@ -7,15 +7,55 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="150*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            
-            <RowDefinition Height="73*"/>
-            <RowDefinition Height="262*"/>
-            <RowDefinition Height="84*"/>
+
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="50*"/>
         </Grid.RowDefinitions>
-        </Grid.Row="1" 
-        <Label Margin="380,23,367,23" RenderTransformOrigin="0.494,0.463" HorizontalAlignment="Center" VerticalAlignment="Center">TEXT</Label>
-        <Label Content="CLOSED" Margin="367,24" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False"/>
+        <Grid Grid.Row="1" Background="Blue" Grid.Column="0">
+            <Image Margin="0,0,0,-2" Source="foto6.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="2" Background="Red" Grid.Column="2">
+            <Image Source="foto14.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="2" Background="green" Grid.Column="1">
+            <Image Source="foto15.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="3" Background="Yellow" Grid.Column="2">
+            <Image Source="foto68.jpg" Stretch="Fill" Margin="0,0,0,-1"/>
+        </Grid>
+        <Grid Grid.Row="3" Background="Cyan" Grid.Column="1">
+            <Image Source="foto67.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="3" Background="Tan" Grid.Column="0">
+            <Image Source="foto60.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="2" Background="NavajoWhite" Grid.Column="0">
+            <Image Source="foto68.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="1" Background="Tomato" Grid.Column="1">
+            <Image Source="foto12.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="1" Background="Gainsboro" Grid.Column="2">
+            <Image Source="foto13.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="0" Background="RoyalBlue" Grid.Column="0">
+            <Image Source="foto67.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="0" Background="Khaki" Grid.Column="1">
+            <Image Source="foto64.jpg" Stretch="Fill"/>
+        </Grid>
+        <Grid Grid.Row="0" Background="Aqua" Grid.Column="2">
+            <Image Source="foto66.jpg" Stretch="Fill"/>
+        </Grid>
+
     </Grid>
-    
+
 </Window>
